@@ -15,6 +15,15 @@ export const theme = {
 		},
 	},
 	extend: {
+		colors: {
+			softblue: '#5368DF',
+			softred: '#FA5757',
+			grayishblue: '#9194A1',
+			verydarkblue: '#252B46',
+		},
+		fontFamily: {
+			rubik: ['Rubik', 'sans'],
+		},
 		keyframes: {
 			'accordion-down': {
 				from: { height: 0 },
